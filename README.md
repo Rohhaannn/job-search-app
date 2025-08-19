@@ -40,7 +40,7 @@ Make sure you have Node.js and pnpm installed on your machine.
 
 3.  Run the development server:
     ```bash
-    pnpm dev
+    pnpm run dev
     ```
 
 The application should now be running at `http://localhost:5173`.
