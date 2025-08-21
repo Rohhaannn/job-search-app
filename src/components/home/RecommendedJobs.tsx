@@ -1,5 +1,6 @@
 import { FaRegBookmark } from "react-icons/fa6";
 import { TbHexagon3D } from "react-icons/tb";
+import { Link } from 'react-router-dom';
 
 export interface RecommendedJob {
   id: number;
@@ -13,8 +14,8 @@ export interface RecommendedJob {
 
 const RecommendedJobs = ({ job }: { job: RecommendedJob }) => {
   return (
-    <a
-      href="/job-description"
+    <Link
+      to={`/job-description/${job.id}`}
       className="max-w-lg bg-[#24294d] rounded-lg block"
     >
       <div className="relative flex flex-row gap-5 p-4 my-4 mx-4">
@@ -50,7 +51,7 @@ const RecommendedJobs = ({ job }: { job: RecommendedJob }) => {
           <span> {job.timeAgo} </span>
         </div>
       </div>
-    </a>
+    </Link>
   );
 };
 
