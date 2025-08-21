@@ -8,11 +8,12 @@ A modern job search application built with React and TypeScript. This app allows
 -   **Suggested and Recommended Jobs**: Displays curated job listings.
 -   **Job Details View**: Provides detailed information on a selected job, including description, responsibilities, and company info.
 -   **User Profile**: A dedicated profile page to manage personal information.
--   **Responsive Design**: The application is designed to be mobile-first and works across various devices.
 
 ## Technologies Used
--   **Frontend**: React, TypeScript
--   **Styling**: Tailwind CSS
+-   **React**: The powerful JavaScript library for building robust and interactive user interfaces.
+-   **TypeScript**: A superset of JavaScript that adds static typing, improving code quality and maintainability.
+-   **React-router-dom**: A library for handling routing in React applications, enabling navigation between different pages and components.
+-   **Tailwind**: An utility-first CSS framework that provides pre-defined classes to quickly build modern, responsive, and customizable UIs.
 -   **Build Tool**: Vite
 -   **Package Manager**: pnpm
 -   **Icons**: [Lucide React Icons](https://lucide.dev/icons/) (from `react-icons/lu`)
@@ -40,7 +41,7 @@ Make sure you have Node.js and pnpm installed on your machine.
 
 3.  Run the development server:
     ```bash
-    pnpm dev
+    pnpm run dev
     ```
 
 The application should now be running at `http://localhost:5173`.
@@ -52,3 +53,12 @@ The application should now be running at `http://localhost:5173`.
 
 ## License
 Distributed under the **MIT** License. See `LICENSE.md` for more information.
+
+
+## 📧 Contact
+
+**Rohan Shingade** - shingaderohan96@gmail.com
+
+**Portfolio** - https://pseudo-next-portfolio.vercel.app/
+
+**Project Link**: https://job-search-app-amonex.vercel.app/
