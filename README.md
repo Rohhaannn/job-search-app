@@ -55,6 +55,7 @@ The application should now be running at `http://localhost:5173`.
 Distributed under the **MIT** License. See `LICENSE.md` for more information.
 
 
+
 ## 📧 Contact
 
 **Rohan Shingade** - shingaderohan96@gmail.com
@@ -62,3 +63,4 @@ Distributed under the **MIT** License. See `LICENSE.md` for more information.
 **Portfolio** - https://pseudo-next-portfolio.vercel.app/
 
 **Project Link**: https://job-search-app-amonex.vercel.app/
+
